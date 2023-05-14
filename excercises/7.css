@@ -1,0 +1,38 @@
+.cat-a{
+    width: 200px;
+    border-radius: 10px;
+}
+.cat-b{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+.cat-c{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 200px;
+}
+.inp-d{
+    border-radius: 5px;
+    /* width: 20px; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* text-align: center; */
+    padding-left: 10px;
+    border-style: solid;
+    border-color: rgb(187, 189, 189);
+}
+.inp-e{
+    padding: 10px;
+    width: 300px;
+    /* border: none; */
+    outline: none;
+    border: 1px solid #eaeaea;
+    border-radius: 20px;
+}
+.inp-e:hover{
+    box-shadow: 1px 1px 4px 1px #acacac;
+}
