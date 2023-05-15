@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS grid</title>
+</head>
+<body>
+    <div style="
+        display: grid;
+        grid-template-columns: 100px 100px 200px;">
+        <div style="background-color: lightblue; text-align: center;"> Div 1 hi <br> My name is naman</div>
+        <div style="background-color: orange; text-align: center;">Div 2</div>
+        <div style="background-color: lightgreen; text-align: center;">Div 3</div>
+
+    </div>
+    <div style="
+        display: grid;
+        grid-template-columns: 100px 100px;
+        margin-top: 30px;">
+        <div style="background-color: lightblue; text-align: center;"> Div 1 hi <br> My name is naman</div>
+        <div style="background-color: orange; text-align: center;">Div 2</div>
+    </div>
+
+    <div style="
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        margin-top: 30px;">
+        <div style="background-color: lightblue; text-align: center;">100px </div>
+        <div style="background-color: orange; text-align: center;">1fr means free space</div>
+    </div>
+
+    <div style="
+        display: grid;
+        grid-template-columns: 100px 1fr 2fr;
+        margin-top: 30px;">
+        <div style="background-color: lightblue; text-align: center;">100px </div>
+        <div style="background-color: orange; text-align: center;">1fr means free space</div>
+        <div style="background-color: lightcoral; text-align: center;">2fr means free space</div>
+
+    </div>
+</body>
+</html>

@@ -6,15 +6,15 @@
     html *{
         font-family: Arial, Helvetica, sans-serif;
     }
+    .full-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 15px;
+        row-gap: 40px;
+    }
     .thumbnail{
         width: 100%;
         }
-    .video-preview{
-        display: inline-block;
-        width: 300px;
-        margin-right: 15px; 
-        vertical-align: top;
-        margin-bottom: 30px;}
     .name{
         margin-top: 8px;
         font-size: 12px;
@@ -33,13 +33,12 @@
         margin-bottom: 0px;}
 
     .channel-picture{
-        display: inline-block;
         width: 40px;
         vertical-align: top;
     }
-    .video-info{
-        display: inline-block;
-        width: 250px;
+    .video-info-grid{
+        display: grid;
+        grid-template-columns: 50px 1fr;
     }
     .picture{
         border-radius: 36px;
@@ -49,17 +48,20 @@
     </style>
 </head>
 <body>
+<div class="full-grid">
     <div class="video-preview">
         <div>
             <img class="thumbnail" src="assets/asset 14.webp">
         </div>
-        <div class="channel-picture">
-            <img src="assets/asset 15.jpeg" class="picture">
-        </div>
-        <div class="video-info">
-            <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai</p>
-            <p class="name">Marques Brownlee</p>
-            <p class="views">3.4M views · 6 months ago</p>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+                <img src="assets/asset 15.jpeg" class="picture">
+            </div>
+            <div class="video-info">
+                <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai</p>
+                <p class="name">Marques Brownlee</p>
+                <p class="views">3.4M views · 6 months ago</p>
+            </div>
         </div>
     </div>
 
@@ -67,6 +69,7 @@
         <div>
             <img class="thumbnail" src="assets/asset 16.webp">
         </div>
+        <div class="video-info-grid">
         <div class="channel-picture">
             <img src="assets/asset 17.jpeg" class="picture">
         </div>
@@ -76,5 +79,71 @@
             <p class="views">19M views · 4 years ago</p>
         </div>
     </div>
+    </div>
+
+    <div class="video-preview">
+        <div>
+            <img class="thumbnail" src="assets/asset 18.webp">
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+                <img src="assets/asset 19.jpeg" class="picture">
+            </div>
+            <div class="video-info">
+                <p class="video-title">Crazy Tik Toks Taken Moments Before DISASTER</p>
+                <p class="name">SSSniperWolf</p>
+                <p class="views">12M views · 1 year ago</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-preview">
+        <div>
+            <img class="thumbnail" src="assets/asset 20.webp">
+        </div>
+        <div class="video-info-grid">
+        <div class="channel-picture">
+            <img src="assets/asset 21.jpeg" class="picture">
+        </div>
+        <div class="video-info">
+            <p class="video-title">The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
+                <p class="name">Veritasium</p>
+                <p class="views">18M views · 4 months ago</p>
+        </div>
+    </div>
+    </div>
+
+    <div class="video-preview">
+        <div>
+            <img class="thumbnail" src="assets/asset 22.webp">
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+                <img src="assets/asset 23.jpeg" class="picture">
+            </div>
+            <div class="video-info">
+                <p class="video-title">Kadane's Algorithm to Maximum Sum Subarray Problem</p>
+                <p class="name">CS Dojo</p>
+                <p class="views">519K views · 5 years ago</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-preview">
+        <div>
+            <img class="thumbnail" src="assets/asset 24.webp">
+        </div>
+        <div class="video-info-grid">
+        <div class="channel-picture">
+            <img src="assets/asset 25.jpeg" class="picture">
+        </div>
+        <div class="video-info">
+            <p class="video-title">Anything You Can Fit In The Circle I’ll Pay For</p>
+            <p class="name">MrBeast</p>
+            <p class="views">141M views · 1 year ago</p>
+        </div>
+    </div>
+    </div>
+</div>
 </body>
 </html>
