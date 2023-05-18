@@ -1,0 +1,42 @@
+html *{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.full-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 40px;
+}
+.thumbnail{
+    width: 100%;
+    }
+.name{
+    margin-top: 8px;
+    font-size: 12px;
+    margin-bottom: 0px;
+    color: #606060;}
+.views{
+    font-size: 12px;
+    margin-top: 5px;
+    color: #606060;}
+.video-title{
+    font-size: 14px;
+    margin-top: 10px;
+    width: 100%;
+    font-weight: 550;
+    line-height: 20px;
+    margin-bottom: 0px;}
+
+.channel-picture{
+    width: 40px;
+    vertical-align: top;
+}
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.picture{
+    border-radius: 36px;
+    width: 36px;
+    margin-top: 10px;
+}
