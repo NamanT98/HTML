@@ -1,29 +1,106 @@
 .header{
-    height: 57px;
+    height: 63px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 27px;
 }
 
 .left-section{
-    width: 180px;
-    background-color: lightblue;
+    display: flex;
+    align-items: center;
+}
+.lines{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.logo{
+    height: 20px;
 }
 .right-section{
-    width: 180px;
-    background-color: greenyellow;
+    width: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 24px;
+    flex-shrink: 0;
+}
+.upload-button{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    cursor: pointer;
+}
+.menu-button{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    cursor: pointer;
+}
+.user-icon{
+    height: 37px;
+    cursor: pointer;
+
+}
+.bell-button{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    cursor: pointer;
+
 }
 .middle-section{
-    flex: 3;
-    background-color: orange;
+    display: flex;
+    flex: 1;
     margin-left: 65px;
     margin-right: 35px;
     max-width: 500px;
+    align-items: center;
 }
-.search-bar{
-    width: 100%;
-    height: 30px;
+.search-button{
+    height: 40px;
+    width: 60px;
+    background-color: rgb(244, 243, 243);
+    border-width: 1px;
     border-style: solid;
-    border-color: #8b8b8b;
-    border-width: 2px;
+    border-color: rgb(192, 192, 192);
+    margin-left: -1px;
+    margin-right: 8px;
+}
+.voice-button{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(246, 246, 246);
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+}
+.voice-icon{
+    height: 24px;
+    
+}
+
+.search-bar{
+    flex: 1;
+    height: 36px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    width: 0;
+}
+.search-bar::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.search-icon{
+    height: 25px;
+    margin-top: 3px;
 }
